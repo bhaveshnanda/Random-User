@@ -12,7 +12,7 @@ const Navbar = ({ profilePic, firstName }) => {
       </div>
       <div className={styles.right}>
         <span className={styles.greeting}>Hello, {firstName} </span>
-        <Image
+        <img
           src={profilePic}
           alt="User Profile"
           width={40}
