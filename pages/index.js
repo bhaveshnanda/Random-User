@@ -1,11 +1,11 @@
 // pages/index.js
-import Image from 'next/image';
+
 const Home = ({ user }) => {
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>User Profile</h1>
       <div style={styles.card}>
-        <Image src={user.picture.large} alt="User" style={styles.image} />
+        <img src={user.picture.large} alt="User" style={styles.image} />
         <div style={styles.info}>
           <p><strong>Name:</strong> {user.name.first} {user.name.last}</p>
           <p><strong>Email:</strong> {user.email}</p>
