@@ -16,6 +16,7 @@ function MyApp({ Component, pageProps }) {
   }, []); // runs only on initial load
 
   if (!user) return <p style={{ padding: '20px' }}>Loading user...</p>;
+  console.log(user.picture.thumbnail); // For debugging purposes
 
   return (
     <>
