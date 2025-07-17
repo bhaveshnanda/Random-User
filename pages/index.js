@@ -7,7 +7,7 @@ const Home = ({ user }) => {
       <div style={styles.card}>
         <img src={user.picture.large} alt="User" style={styles.image} />
         <div style={styles.info}>
-          <p><strong>N:</strong> {user.name.first} {user.name.last}</p>
+          <p><strong>Name:</strong> {user.name.first} {user.name.last}</p>
           <p><strong>Email:</strong> {user.email}</p>
           <p><strong>Location:</strong> {user.location.city}, {user.location.country}</p>
         </div>
