@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Navbar profilePic={user.picture.large} firstName={user.name.first} />
+      <Navbar profilePic={user.picture.thumbnail} firstName={user.name.first} />
       <Component {...pageProps} user={user} />
     </>
   );
