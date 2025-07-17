@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'https://random-user-lemon-gamma.vercel.app/',
+        hostname: 'randomuser.me',
         pathname: '/**',
       },
     ],
